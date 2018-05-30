@@ -23,15 +23,6 @@
 				color:#000000;
 			}
 		</style>
-
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118774531-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-118774531-1');
-		</script>
 	</head>
 	<body>
 		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -42,7 +33,6 @@
 					<nav class="mdl-navigation">
 						<a class="mdl-navigation__link" href="https://twitter.com/redoste">Twitter</a>
 						<a class="mdl-navigation__link" href="https://github.com/redoste">Github</a>
-						<a href="#" style="color: rgb(255, 255, 255)" id="info-btn"><div class="material-icons mdl-badge mdl-badge--overlap" data-badge="1">&#xE88E;</div></a>
 					</nav>
 				</div>
 			</header>
@@ -97,15 +87,6 @@
 			</main>
 			
 		</div>
-
-		<script>
-			(function(){
-				let infobtn = document.querySelector("#info-btn");
-				infobtn.onclick = function(){
-					alert("Ce site web utilise Google Analytics pour connaître les moyens utilisés ainsi que la fréquence de son utilisation.");
-					infobtn.getElementsByTagName("div")[0].classList.remove("mdl-badge", "mdl-badge--overlap");
-				}
-			})();
-		</script>
+		
 	</body>
 </html>
